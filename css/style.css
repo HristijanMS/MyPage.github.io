@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#89db89;
+}
+
+a{
+    text-decoration: none;
+}
+
+#top-menu ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    
+}
+
+#top-menu ul a{
+    color: white;
+    font-size: large;
+}
+#top-menu ul li{
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#top-menu ul li:hover{
+    background-color: green;
+    border-radius: 5px;
+}
+
+
+#top-menu{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    background-color: black;
+    height: 50px;
+}
+
+
+
+#main-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:url(../images/background1.png);
+    background-repeat: no-repeat;
+    padding-top: 330px;
+    padding-bottom: 330px;
+}
+
+h1,h3,h2{
+    color:white;
+    font-weight: 1000;
+}
+
+.border{
+    background-color: #629b62;
+    height: 9px;
+    width: 100%;
+}
+
+#stats-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#stats-main{
+    padding:30px;
+}
+
+#stats-menu{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+#stats{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;  
+    width: 50%;
+}
+
+.model3d{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+model-viewer{
+    width:300px;
+    height: 450px;
+    margin:0 auto; 
+}
+
+.w3-border{
+    width: 400px;
+}
+
+.w3-green{
+    text-align: center;
+}
+
+#second-section{
+    padding:30px;
+}
+
+#second-section-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: top;
+}
+
+.main-q{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    align-items: center;
+}
+.main-q  h3{
+    margin-left: 10px;
+}
+
+.main-q:hover a,.main-q:hover img{
+    color: green;
+    font-size: 25px;
+    width: 74px;
+}
+#quests{
+    width: 50%;
+}
+
+
+.form{
+    width: 500px;
+}
+
+#about-me{
+    padding: 30px;
+}
+
+#foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    color: white;
+}

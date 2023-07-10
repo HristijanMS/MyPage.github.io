@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Webpage</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <div id="top-menu">
+            <ul>
+            <li><a href="main-section">Home</a></li>
+            <li><a href="#stats-main">Stats</a></li>
+            <li><a href="#second-section">Quests</a></li>
+            <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section>
+        <div id="main-section">          
+            <h1 class="centered">Welcome traveller,  my name is Hristijan Mijaleski Spaseski</h1>
+            <h3 class="centered">The art of game development</h3>
+        </div>
+    </section>
+
+    <div class="border"></div>
+    <section>
+        <div id="about-me">
+            <h1>About me</h1>
+            <h3>My name is  Hristijan Mijaleski Spaseski and I'm passionate  about  programming and computer related stuff. If you want to know more you can  contact me on my social media or check  out my projects.</h3>
+        </div>
+    </section>
+    <div class="border"></div>
+    <main id="stats-main">
+        <h1>Stats</h1>
+        <div id="stats-menu" >
+
+            <div class="model3d">
+                <model-viewer src="./models/FarmerAnimationsV2.glb" camera-controls></model-viewer>
+            </div>
+
+            <div id="stats">
+                <div>
+                    <h3>Programming</h3>
+                    <div class="w3-border">
+                        <div class="w3-green" style="height:24px;width:100%">100%</div>
+                      </div>
+                </div>
+
+                <div>
+                    <h3>Pixel art</h3>
+                    <div  class="w3-border">
+                        <div class="w3-green" style="height:24px;width:100%">100%</div>
+                      </div>
+                </div>
+
+                <div>
+                    <h3>3d modeling</h3>
+                    <div   class="w3-border">
+                        <div class="w3-green" style="height:24px;width:70%">70%</div>
+                      </div>
+                </div>
+
+                <div>
+                    <h3>Web development</h3>
+                    <div class="w3-border">
+                        <div class="w3-green" style="height:24px;width:100%">100%</div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+    <div class="border"></div>
+    <section id="second-section">
+        <h1>Quests</h1>
+        <div id="second-section-div">
+
+            <div class="flexbox">
+                <h2>Main quests</h2>
+                <div id="quests">
+                    <div class="main-q">
+                        <img src="./images/icon.png">
+                        <h3><a href="https://theshepherdofficial.itch.io/">The Shepherd</a></h3>
+                    </div>
+                    <div class="main-q">
+                        <img src="./images/logo.ico"  width="64px">
+                        <h3><a href="https://theshepherdofficial.itch.io/leap-of-faith">LeapOfFaith</a></h3>
+                    </div>
+                    <div class="main-q">
+                        <img src="./images/icon1.png" width="64px">
+                        <h3>Grow (Coming soon)</h3>
+                    </div>
+                    <div class="main-q">
+                        <img src="./images/2.png" width="64px">
+                        <h3>Shrink (Coming soon)</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="model3d">
+                <model-viewer src="./models/AstronautDripV4.glb" camera-controls></model-viewer>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div id="foot">All rights  reserved</div>
+    </footer>
+
+</body>
+</html>
